@@ -1,0 +1,6 @@
+rootProject.name = 'programming'
+
+include 'junit'
+include 'modern-java'
+include 'java'
+
