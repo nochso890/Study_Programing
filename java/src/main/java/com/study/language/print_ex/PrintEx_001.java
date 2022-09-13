@@ -8,6 +8,8 @@ public class PrintEx_001 {
         short s = 2;
         char c = 'A';
 
+
+
         System.out.println("b : "+b);
         System.out.println("s : "+s);
         System.out.println("c : "+c);
