@@ -13,6 +13,7 @@ public class ScannerEx {
         int number = Integer.parseInt(inputNumber);
 
         System.out.println("입력내용 : " + number);
+
     }
 
 }
