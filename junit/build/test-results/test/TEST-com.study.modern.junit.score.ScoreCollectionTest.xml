@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.study.modern.junit.score.ScoreCollectionTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-06-08T12:32:26" hostname="nochangsong-ui-MacBookPro.local" time="0.024">
+<testsuite name="com.study.modern.junit.score.ScoreCollectionTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-01-12T12:20:09" hostname="nochso-MacBook-Pro.local" time="0.029">
   <properties/>
-  <testcase name="test()" classname="com.study.modern.junit.score.ScoreCollectionTest" time="0.024">
+  <testcase name="test()" classname="com.study.modern.junit.score.ScoreCollectionTest" time="0.029">
     <failure message="org.opentest4j.AssertionFailedError: Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
