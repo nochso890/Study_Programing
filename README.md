@@ -1,1 +1,1 @@
-개인 공부를 위한 Multi Module Project 
+개인 공부를 위한 프로젝트
