@@ -61,7 +61,7 @@ public class Owner extends Person {
 
 	@Column(name = "age")
 	@NotBlank
-	private String age;
+	private Integer age;
 
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	@JoinColumn(name = "owner_id")
@@ -92,9 +92,13 @@ public class Owner extends Person {
 		this.telephone = telephone;
 	}
 
-	public String getAge(){return this.age;}
+	public Integer getAge() {
+		return age;
+	}
 
-	public void setAge(String age){this.age = age;}
+	public void setAge(Integer age) {
+		this.age = age;
+	}
 
 	public List<Pet> getPets() {
 		return this.pets;

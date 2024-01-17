@@ -109,15 +109,17 @@ class OwnerController {
 			// 1 owner found
 			owner = ownersResults.iterator().next();
 			return "redirect:/owners/" + owner.getId();
-		}
-		if (ownersFirstNameResult.getTotalElements() == 1) {
+		}else if(ownersResults.getTotalElements() <= 1){
+			// multiple owners found
+			return addPaginationModel(page, model, ownersResults);
+		}else if (ownersFirstNameResult.getTotalElements() == 1) {
 			// 1 owner found
 			owner = ownersFirstNameResult.iterator().next();
 			return "redirect:/owners/" + owner.getId();
+		} else {
+			// multiple owners found
+			return addPaginationModel(page, model, ownersFirstNameResult);
 		}
-
-		// multiple owners found
-		return addPaginationModel(page, model, ownersResults);
 	}
 
 	private String addPaginationModel(int page, Model model, Page<Owner> paginated) {
