@@ -4,7 +4,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
@@ -12,6 +11,14 @@
             <option value="$PROJECT_DIR$/java" />
             <option value="$PROJECT_DIR$/junit" />
             <option value="$PROJECT_DIR$/modern-java" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-study" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/spring-study" />
           </set>
         </option>
       </GradleProjectSettings>
