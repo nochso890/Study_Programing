@@ -1,4 +1,4 @@
-package com.study.modern.junit.score;
+package com.study.modern.junit.scoreable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,10 +12,7 @@ public class ScoreCollection {
     }
 
     public int arithmeticMean(){
-        int total = scores
-            .stream()
-            .mapToInt(Scoreable::getScore).sum();
-
+        int total = scores.stream().mapToInt(Scoreable::getScore).sum();
         return total / scores.size();
     }
 

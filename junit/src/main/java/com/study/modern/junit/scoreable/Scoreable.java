@@ -1,7 +1,6 @@
-package com.study.modern.junit.score;
+package com.study.modern.junit.scoreable;
 
 @FunctionalInterface
 public interface Scoreable {
-
     int getScore();
 }
