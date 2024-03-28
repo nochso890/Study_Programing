@@ -1,19 +1,19 @@
 package com.study.modern.junit.profile;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class ProfileTest {
 
-    private Profile profile;
-    private BooleanQuestion question;
-    private Criteria criteria;
+    private static Profile profile;
+    private static BooleanQuestion question;
+    private static Criteria criteria;
 
-    @BeforeEach
-    void create(){
+    @BeforeAll
+    static void create(){
         profile = new Profile("Bull Hockey, Inc.");
         question = new BooleanQuestion(1,"Got bonuses?");
         criteria = new Criteria();
