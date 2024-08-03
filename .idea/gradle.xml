@@ -5,12 +5,21 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="17" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/java" />
             <option value="$PROJECT_DIR$/junit" />
             <option value="$PROJECT_DIR$/modern-java" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/design-pattern" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/design-pattern" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -24,6 +33,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-study" />
+        <option name="gradleJvm" value="17" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/spring-study" />
